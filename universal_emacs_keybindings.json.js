@@ -572,12 +572,6 @@ function optionKeys() {
       to: [{key_code: 'v', modifiers: ['command']}],
       conditions: [unlessEmacs()],
     },
-    {
-      type: 'basic',
-      from: {key_code: 'delete_or_backspace', modifiers: {mandatory: ['option'], optional: ['any']}},
-      to: [{key_code: 'z', modifiers: ['command']}],
-      conditions: [unlessEmacs()],
-    },
   ]
 }
 
